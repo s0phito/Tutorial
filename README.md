@@ -1,8 +1,8 @@
 # Tutorial
 
-Github Commands:
-git - check if we have github
-git -version - check version of our github
+Github Commands:_
+git - check if we have github_
+git -version - check version of our github_
 git config -global user.name "Your Username"
 local repository - located on your machine
   first commit our codes to our local repository
@@ -33,4 +33,7 @@ repo:
  cd "Project Name"
  ls --all
   list every file
+  
+  Github website:
+    Trace commits
  
