@@ -4,6 +4,7 @@ Github Commands:<br>
 git - check if we have github<br>
 git -version - check version of our github<br>
 git config -global user.name "Your Username"<br>
+git pull --help - show description and arguments of the command "pull"
 local repository - located on your machine<br>
   first commit our codes to our local repository<br><br>
   then push it to the remote repository<br>
