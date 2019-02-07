@@ -20,19 +20,23 @@ steps for committing a new change:
       to find the differences
     git add .
     git commit -m "commit title"
+    git status
+      should say "nothing to commit"
+    git remote add origin "url of newRepo"
+      add change to a new repo
     git pull origin master - remote repository
 repo:
-  can clone exisiting remote repo or init creating repo
- git clone - gets exisiting repo from remote
+  can clone existing remote repo or init creating repo
+ git clone - gets existing repo from remote
  git init - create own repo in local
   copy url
   right click in directory
   click git bash
   type in command line: git clone "url"
  how to check if we have .git format:
- cd "Project Name"
- ls --all
-  list every file
+   cd "Project Name"
+   ls --all
+    list every file - used to check if we have .git
   
   Github website:
     Trace commits
