@@ -37,6 +37,19 @@ repo:<br>
    cd "Project Name"<br>
    ls --all<br>
     list every file - used to check if we have .git<br>
+ git checkout -b "branch name" - create a new branch named branch name
+ git checkout master - switched to branch 'master'
+  git checkout "branch name" - switch to a branch
+ git add .
+  git commit -m "commit for new branch"
+  git push origin "branch name"
+  git add *.txt - add everything with the txt format
+  git commit -m "txt format"
+  git push origin "branch name"
+  create new file called "3.txt"
+  git add 3.txt
+  git commit -m "3 txt"
+  gt push orgin "branch name"
   
   Github website:<br>
     Trace commits<br>
