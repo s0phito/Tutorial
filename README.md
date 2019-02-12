@@ -38,20 +38,24 @@ repo:<br>
    cd "Project Name"<br>
    ls --all<br>
     list every file - used to check if we have .git<br>
- git checkout -b "branch name" - create a new branch named branch name
- git checkout master - switched to branch 'master'
-  git checkout "branch name" - switch to a branch
- git add .
-  git commit -m "commit for new branch"
-  git push origin "branch name"
-  git add *.txt - add everything with the txt format
-  git commit -m "txt format"
-  git push origin "branch name"
-  create new file called "3.txt"
-  git add 3.txt
-  git commit -m "3 txt"
-  gt push orgin "branch name"
-  
+ git checkout -b "branch name" - create a new branch named branch name<br>
+ git checkout master - switched to branch 'master'<br>
+  git checkout "branch name" - switch to a branch<br>
+ git add .<br>
+  git commit -m "commit for new branch"<br>
+  git push origin "branch name"<br>
+  git add *.txt - add everything with the txt format<br
+  git commit -m "txt format"<br>
+  git push origin "branch name"<br>
+  create new file called "3.txt"<br>
+  git add 3.txt<br>
+  git commit -m "3 txt"<br>
+  gt push orgin "branch name"<br>
+  If there is a change detected in the remote AND local depo, merge conflict will occur<br>
+  <br>
+  <br>
+  <br>
+  <br>
   Github website:<br>
     Trace commits<br>
  </p>
