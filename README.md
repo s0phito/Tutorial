@@ -52,7 +52,7 @@ repo:<br>
   git commit -m "3 txt"<br>
   gt push orgin "branch name"<br>
   If there is a change detected in the remote AND local depo, merge conflict will occur<br>
-  <br>
+  commit identifying numbers - indicates that the in this commit, the remote repo has changed<br>
   <br>
   <br>
   <br>
