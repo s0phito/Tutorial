@@ -1,5 +1,62 @@
-<h1 class="unchanged rich-diff-level-one">Tutorial</h1>
-<p class="unchanged rich-diff-level-one">Github Commands:</p>
-<p class="unchanged rich-diff-level-one" style="padding-left: 30px;">git - check if we have github<br />git -version - check version of our github<br />git config -global user.name "Your Username"<br />git pull --help - show description and arguments of the command "pull" local repository - located on your machine</p>
-<p class="unchanged rich-diff-level-one">first commit our codes to our local repository<br />then push it to the remote repository<br />git add . - to index the changes<br />git commit -m "the first commit"<br />git status - branch should be updated<br />git push origin master - push change to remote repo<br />master - the branch<br />git clone<br />steps for committing a new change:<br />make changes to file<br />type in command line:<br />git status<br />to find the differences<br />git add .<br />git commit -m "commit title"<br />git status<br />should say "nothing to commit"<br />git remote add origin "url of newRepo"<br />add change to a new repo<br />git pull origin master - remote repository<br />repo:<br />can clone existing remote repo or init creating repo<br />git clone - gets existing repo from remote<br />git init - create own repo in local<br />copy url<br />right click in directory<br />click git bash<br />type in command line: git clone "url"<br />how to check if we have .git format:<br />cd "Project Name"<br />ls --all<br />list every file - used to check if we have .git<br />git checkout -b "branch name" - create a new branch named branch name<br />git checkout master - switched to branch 'master'<br />git checkout "branch name" - switch to a branch<br />git add .<br />git commit -m "commit for new branch"<br />git push origin "branch name"<br />git add *.txt - add everything with the txt format<br />git push origin "branch name"<br />create new file called "3.txt"<br />git add 3.txt<br />git commit -m "3 txt"<br />gt push orgin "branch name"<br />If there is a change detected in the remote AND local depo, merge conflict will occur<br />commit identifying numbers - indicates that the in this commit, the remote repo has changed<br /><br /><br /><br />Github website:</p>
-<p class="unchanged rich-diff-level-one" style="padding-left: 30px;"><br />Trace commits</p>
+## Tutorial
+
+Github Commands:
+
+git - check if we have github git -version - check version of our github git config -global user.name "Your Username" git pull --help - show description and arguments of the command "pull" local repository - located on your machine
+
+1.  first commit our codes to our local repository
+2.  then push it to the remote repository
+3.  git add . - to index the changes
+4.  git commit -m "the first commit"
+5.  git status - branch should be updated
+6.  git push origin master - push change to remote repo
+7.  master - the branch
+8.  git clone
+
+**Steps for committing a new change:**
+
+1.  make changes to file
+2.  type in command line:
+3.  **git status**
+
+1.  to find the differences4.  **git add .**
+5.  **git commit -m "commit title"**
+6.  **git status**
+
+1.  should say "nothing to commit"7.  **git remote add origin "url of newRepo"**
+
+1.  add change to a new repo8.  **git pull origin master** - remote repository
+
+**Repositories**
+
+repo - can clone existing remote repo or init creating repo
+git clone - gets existing repo from remote
+git init - create own repo in local
+
+1.  copy url
+2.  right click in directory
+3.  click git bash
+4.  type in command line: git clone "url"
+
+**How to check if we have .git format:**
+
+1.  cd "Project Name"
+2.  ls --all
+3.  list every file - used to check if we have .git&nbsp;
+4.  git checkout -b "branch name"&nbsp;
+
+1.  create a new branch named branch name&nbsp;5.  git checkout master - switched to branch 'master'&nbsp;
+6.  git checkout "branch name" - switch to a branch&nbsp;
+7.  git add .
+8.  git commit -m "commit for new branch"&nbsp;
+9.  git push origin "branch name"&nbsp;
+10.  git add *.txt - add everything with the txt format&nbsp;
+11.  git push origin "branch name" create new file called "3.txt"&nbsp;
+12.  git add 3.txt git commit -m "3 txt"&nbsp;
+13.  git push origin "branch name"&nbsp;
+
+commit identifying numbers - indicates that the in this commit, the remote repo has changed
+
+### Github website:
+
+Trace commits
