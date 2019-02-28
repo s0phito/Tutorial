@@ -2,7 +2,11 @@
 
 Github Commands:
 
-git - check if we have github git -version - check version of our github git config -global user.name "Your Username" git pull --help - show description and arguments of the command "pull" local repository - located on your machine
+git - check if we have github <br>
+git -version - check version of our github <br>
+git config -global user.name "Your Username" <br>
+git pull --help - show description and arguments of the command "pull" <br>
+local repository - located on your machine <br>
 
 1.  first commit our codes to our local repository
 2.  then push it to the remote repository
@@ -19,19 +23,22 @@ git - check if we have github git -version - check version of our github git con
 2.  type in command line:
 3.  **git status**
 
-1.  to find the differences4.  **git add .**
+1.  to find the differences
+4.  **git add .**
 5.  **git commit -m "commit title"**
 6.  **git status**
 
-1.  should say "nothing to commit"7.  **git remote add origin "url of newRepo"**
+1.  should say "nothing to commit"
+7.  **git remote add origin "url of newRepo"**
 
-1.  add change to a new repo8.  **git pull origin master** - remote repository
+1.  add change to a new repo
+8.  **git pull origin master** - remote repository
 
 **Repositories**
 
-repo - can clone existing remote repo or init creating repo
-git clone - gets existing repo from remote
-git init - create own repo in local
+repo - can clone existing remote repo or init creating repo<br>
+git clone - gets existing repo from remote<br>
+git init - create own repo in local<br>
 
 1.  copy url
 2.  right click in directory
