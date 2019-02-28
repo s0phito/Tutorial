@@ -33,7 +33,7 @@ git COMMAND --help - get help with COMMAND <br>
 7.  **git remote add origin "url of newRepo"**
 
 1.  add change to a new repo
-8.  **git pull origin master** - remote repository
+8.  **git pull origin master** -  download remote content and immediately attempt to change the local state to match that content
 
 **Repositories**
 
@@ -54,6 +54,7 @@ git init - create own repo in local<br>
 2.  ls --all
 3.  list every file - used to check if we have .git&nbsp;
 <br><br>
+### How to create new branch and merge it
 1.  git checkout -b "branch name"&nbsp;
 a.  create a new branch named branch name&nbsp;
 2.  git checkout master - switched to branch 'master'&nbsp;
@@ -67,6 +68,8 @@ a.  create new file called "3.txt"&nbsp; <br>
 9.  git add bob.txt 
 10.  git commit -m "3 txt"&nbsp;
 11.  git push origin "branch name"&nbsp;
+12.  git checkout master
+13.   git merge "branch name"
 
 commit identifying numbers - indicates that the in this commit, the remote repo has changed
 
