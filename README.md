@@ -40,6 +40,8 @@ repo - can clone existing remote repo or init creating repo<br>
 git clone - gets existing repo from remote<br>
 git init - create own repo in local<br>
 
+### How to clone repo
+
 1.  copy url
 2.  right click in directory
 3.  click git bash
