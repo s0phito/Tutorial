@@ -7,6 +7,7 @@ git -version - check version of our github <br>
 git config -global user.name "Your Username" <br>
 git pull --help - show description and arguments of the command "pull" <br>
 local repository - located on your machine <br>
+git COMMAND --help - get help with COMMAND <br>
 
 1.  first commit our codes to our local repository
 2.  then push it to the remote repository
@@ -53,16 +54,18 @@ git init - create own repo in local<br>
 2.  ls --all
 3.  list every file - used to check if we have .git&nbsp;
 4.  git checkout -b "branch name"&nbsp;
-
+<br><br>
 1.  create a new branch named branch name&nbsp;5.  git checkout master - switched to branch 'master'&nbsp;
 6.  git checkout "branch name" - switch to a branch&nbsp;
 7.  git add .
 8.  git commit -m "commit for new branch"&nbsp;
 9.  git push origin "branch name"&nbsp;
 10.  git add *.txt - add everything with the txt format&nbsp;
-11.  git push origin "branch name" create new file called "3.txt"&nbsp;
-12.  git add 3.txt git commit -m "3 txt"&nbsp;
-13.  git push origin "branch name"&nbsp;
+11.  git push origin "branch name" 
+a.  create new file called "3.txt"&nbsp; <br>
+12.  git add bob.txt 
+13.  git commit -m "3 txt"&nbsp;
+14.  git push origin "branch name"&nbsp;
 
 commit identifying numbers - indicates that the in this commit, the remote repo has changed
 
