@@ -53,19 +53,20 @@ git init - create own repo in local<br>
 1.  cd "Project Name"
 2.  ls --all
 3.  list every file - used to check if we have .git&nbsp;
-4.  git checkout -b "branch name"&nbsp;
 <br><br>
-1.  create a new branch named branch name&nbsp;5.  git checkout master - switched to branch 'master'&nbsp;
-6.  git checkout "branch name" - switch to a branch&nbsp;
-7.  git add .
-8.  git commit -m "commit for new branch"&nbsp;
-9.  git push origin "branch name"&nbsp;
-10.  git add *.txt - add everything with the txt format&nbsp;
-11.  git push origin "branch name" 
+1.  git checkout -b "branch name"&nbsp;
+a.  create a new branch named branch name&nbsp;
+2.  git checkout master - switched to branch 'master'&nbsp;
+3.  git checkout "branch name" - switch to a branch&nbsp;
+4.  git add .
+5.  git commit -m "commit for new branch"&nbsp;
+6.  git push origin "branch name"&nbsp;
+7.  git add *.txt - add everything with the txt format&nbsp;
+8.  git push origin "branch name" 
 a.  create new file called "3.txt"&nbsp; <br>
-12.  git add bob.txt 
-13.  git commit -m "3 txt"&nbsp;
-14.  git push origin "branch name"&nbsp;
+9.  git add bob.txt 
+10.  git commit -m "3 txt"&nbsp;
+11.  git push origin "branch name"&nbsp;
 
 commit identifying numbers - indicates that the in this commit, the remote repo has changed
 
